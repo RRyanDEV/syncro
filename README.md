@@ -17,7 +17,7 @@ https://github.com/othneildrew/Best-README-Template
     <br />
     <br />
     ||
-    <a href="./CHANGELOG.md">Notas de Versão</a>
+    <a href="./CHANGELOG.MD">Notas de Versão</a>
     ||
     <a href="#autores">Autores</a>
     ||
@@ -27,17 +27,10 @@ https://github.com/othneildrew/Best-README-Template
 ### Construído com
 
 <!-- [![REACT][REACT]][react-url] -->
+
 [![TYPE][TYPE]][ts-url]
 [![PRISMA][PRISMA]][prisma-url]
 [![MONGO][MONGO]][mongo-url]
-
-
-<!-- ## 🚀 Como executar o projeto
-
-1. Clone o repositório: `git clone https://github.com/RRyanDEV/portfolio.git`
-2. Instale as dependências: `npm install` ou `yarn`
-3. Inicie o servidor de desenvolvimento: `npm run dev` ou `yarn dev`
-4. Acesse: `http://localhost:3000` -->
 
 <a name="section-autores">
 
@@ -61,10 +54,10 @@ https://github.com/othneildrew/Best-README-Template
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [change-url]: ./CHANGELOG.md
-[stars-shield]: https://img.shields.io/github/stars/RRyanDEV/portfolio?style=for-the-badge
-[stars-url]: https://github.com/RRyanDEV/portfolio/stargazers
-[issues-shield]: https://img.shields.io/github/issues/RRyanDEV/portfolio?style=for-the-badge
-[issues-url]: https://github.com/RRyanDEV/portfolio/issues
+[stars-shield]: https://img.shields.io/github/stars/RRyanDEV/syncro?style=for-the-badge
+[stars-url]: https://github.com/RRyanDEV/syncro/stargazers
+[issues-shield]: https://img.shields.io/github/issues/RRyanDEV/syncro?style=for-the-badge
+[issues-url]: https://github.com/RRyanDEV/syncro/issues
 [REACT]: https://img.shields.io/badge/React-%2320232a.svg?&style=for-the-badge&logo=React&logoColor=%2361DAFB
 [react-url]: https://pt-br.reactjs.org
 [TYPE]: https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white
@@ -73,4 +66,3 @@ https://github.com/othneildrew/Best-README-Template
 [prisma-url]: https://www.prisma.io/orm
 [MONGO]: https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white
 [mongo-url]: https://www.mongodb.com/
-
