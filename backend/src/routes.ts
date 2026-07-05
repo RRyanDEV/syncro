@@ -1,12 +1,14 @@
-import {
-    FastifyInstance,
-    FastifyPluginOptions,
-    FastifyRequest,
-    FastifyReply
-} from "fastify"
+import {FastifyInstance, FastifyPluginOptions, FastifyRequest, FastifyReply} from "fastify"
+
+import {CreateCustomerController} from './controllers/CreateCustomerController.js'
+
 
 export async function routes(fastify: FastifyInstance, options: FastifyPluginOptions) {
     fastify.get('/test', async(request: FastifyRequest, reply:FastifyReply) => {
         return{ok: true}
+    })
+
+    fastify.post("/customer", async(request: FastifyRequest, reply: FastifyReply) => {
+        return new CreateCustomerController().handle(request, reply)
     })
 }
