@@ -1,3 +1,9 @@
+### v0.4.0.20260910
+- Cria `ListCustomersService` e `ListCustomerController` para listar todos os clientes.
+- Cria `DeleteCustomerService` e `DeleteCustomerController` com validações de id.
+- Registra as rotas `GET '/customersList'` e `DELETE '/delCustomer'`.
+- Limpa configurações não utilizadas no prisma.config.ts
+
 ### v0.3.0.20260705
 - Renomeia o modelo `'User'` para `'Customer'` no schema do Prisma.
 - Cria o `'CreateCustomerService'` para validação e persistência no banco.
